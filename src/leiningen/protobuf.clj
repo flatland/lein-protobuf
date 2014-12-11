@@ -26,7 +26,7 @@
 
 (defn url [project]
   (java.net.URL.
-   (format "http://protobuf.googlecode.com/files/protobuf-%s.zip" (version project))))
+   (format "https://protobuf.googlecode.com/files/protobuf-%s.zip" (version project))))
 
 (defn proto-path [project]
   (io/file (get project :proto-path "resources/proto")))
