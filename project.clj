@@ -1,4 +1,4 @@
-(defproject org.clojars.brunchboy/lein-protobuf "0.4.3-SNAPSHOT"
+(defproject lein-protobuf "0.4.3"
   :description "Leiningen plugin for compiling protocol buffers."
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
